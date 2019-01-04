@@ -1,0 +1,72 @@
+@font-face {
+	font-family: 'Avenir';
+	src: url('AvenirLTStd-Book.eot');
+	src: url('AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
+		url('AvenirLTStd-Book.woff2') format('woff2'),
+		url('AvenirLTStd-Book.woff') format('woff'),
+		url('AvenirLTStd-Book.ttf') format('truetype'),
+		url('AvenirLTStd-Book.svg#Avenir') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Avenir_Black';
+	src: url('Avenir-Black.eot');
+	src: url('Avenir-Black.eot?#iefix') format('embedded-opentype'),
+		url('Avenir-Black.woff2') format('woff2'),
+		url('Avenir-Black.woff') format('woff'),
+		url('Avenir-Black.ttf') format('truetype'),
+		url('Avenir-Black.svg#Avenir_Black') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Avenir_Medium';
+	src: url('Avenir-Medium.eot');
+	src: url('Avenir-Medium.eot?#iefix') format('embedded-opentype'),
+		url('Avenir-Medium.woff2') format('woff2'),
+		url('Avenir-Medium.woff') format('woff'),
+		url('Avenir-Medium.ttf') format('truetype'),
+		url('Avenir-Medium.svg#Avenir_Medium') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AvenirNext_DemiBold';
+	src: url('AvenirNext-DemiBold.eot');
+	src: url('AvenirNext-DemiBold.eot?#iefix') format('embedded-opentype'),
+		url('AvenirNext-DemiBold.woff2') format('woff2'),
+		url('AvenirNext-DemiBold.woff') format('woff'),
+		url('AvenirNext-DemiBold.ttf') format('truetype'),
+		url('AvenirNext-DemiBold.svg#AvenirNext_DemiBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Avenir_Roman';
+	src: url('Avenir-Roman.eot');
+	src: url('Avenir-Roman.eot?#iefix') format('embedded-opentype'),
+		url('Avenir-Roman.woff2') format('woff2'),
+		url('Avenir-Roman.woff') format('woff'),
+		url('Avenir-Roman.ttf') format('truetype'),
+		url('Avenir-Roman.svg#Avenir_Roman') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Verdana';
+	src: url('Verdana.eot');
+	src: url('Verdana.eot?#iefix') format('embedded-opentype'),
+		url('Verdana.woff2') format('woff2'),
+		url('Verdana.woff') format('woff'),
+		url('Verdana.ttf') format('truetype'),
+		url('Verdana.svg#Verdana') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

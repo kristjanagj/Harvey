@@ -1,0 +1,1063 @@
+﻿@font-face {
+    font-family: 'Avenir';
+    src: url('fonts/AvenirLTStd-Book.eot');
+	src: url('fonts/AvenirLTStd-Book.eot?#iefix') format('embedded-opentype'),
+		url('fonts/AvenirLTStd-Book.woff2') format('woff2'),
+		url('fonts/AvenirLTStd-Book.woff') format('woff'),
+		url('fonts/AvenirLTStd-Book.ttf') format('truetype'),
+		url('fonts/AvenirLTStd-Book.svg#Avenir') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Avenir_Black';
+	src: url('fonts/Avenir-Black.eot');
+	src: url('fonts/Avenir-Black.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Avenir-Black.woff2') format('woff2'),
+		url('fonts/Avenir-Black.woff') format('woff'),
+		url('fonts/Avenir-Black.ttf') format('truetype'),
+		url('fonts/Avenir-Black.svg#Avenir_Black') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Avenir_Medium';
+	src: url('fonts/Avenir-Medium.eot');
+	src: url('fonts/Avenir-Medium.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Avenir-Medium.woff2') format('woff2'),
+		url('fonts/Avenir-Medium.woff') format('woff'),
+		url('fonts/Avenir-Medium.ttf') format('truetype'),
+		url('fonts/Avenir-Medium.svg#Avenir_Medium') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AvenirNext_DemiBold';
+	src: url('fonts/AvenirNext-DemiBold.eot');
+	src: url('fonts/AvenirNext-DemiBold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/AvenirNext-DemiBold.woff2') format('woff2'),
+		url('fonts/AvenirNext-DemiBold.woff') format('woff'),
+		url('fonts/AvenirNext-DemiBold.ttf') format('truetype'),
+		url('fonts/AvenirNext-DemiBold.svg#AvenirNext_DemiBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Avenir_Roman';
+	src: url('fonts/Avenir-Roman.eot');
+	src: url('fonts/Avenir-Roman.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Avenir-Roman.woff2') format('woff2'),
+		url('fonts/Avenir-Roman.woff') format('woff'),
+		url('fonts/Avenir-Roman.ttf') format('truetype'),
+		url('fonts/Avenir-Roman.svg#Avenir_Roman') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Verdana';
+	src: url('fonts/Verdana.eot');
+	src: url('fonts/Verdana.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Verdana.woff2') format('woff2'),
+		url('fonts/Verdana.woff') format('woff'),
+		url('fonts/Verdana.ttf') format('truetype'),
+		url('fonts/Verdana.svg#Verdana') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.container{
+    max-width: 1600px;
+    position: relative;
+} 
+/* 1- Index */  /* 2- About(335) */  /* 3- Care_Cleaning (380) */  /* 4- Customer Service (472) */  /* 5- Faq (526)*/
+/* .header{
+    background-color:#333745;
+    justify-content: flex-end;
+}
+.header-names {
+    margin-top: 15px;
+}
+.header-names li{
+    display: inline; 
+    color: white;
+    list-style: none;
+    font-size: 15px;
+    font-family: 'Avenir_Medium';
+    padding: 15px;
+}
+.header-names li a{
+    color: white;
+    text-decoration: none;
+} */
+.header-names {
+    padding: 15px 35px 3px 0px;
+}
+.site-header{
+    background-color:#333745;
+    text-align: right;
+}
+.site-header li{
+    display: inline; 
+    color: white;
+    list-style: none;
+    font-size: 15px;
+    font-family: 'Avenir_Medium';
+    padding: 15px;
+}
+.site-header li a{
+    color: white;
+    text-decoration: none;
+} 
+#slider .carousel-indicators li {
+    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color:#4e5256;
+    border-radius: 50px;
+}
+#slider .carousel-indicators .active {
+    background-color: rgba(0, 0, 0, 0);
+    width: 17px;
+    height: 17px;
+    border: 2px solid #4e5256;
+    display: inline-block;
+}
+/* #slider .glyphicon .glyphicon-menu-left, #images .glyphicon .glyphicon-menu-left {
+    width: 49px;
+    height: 50px;
+    margin-top: 400px;
+    font-size: 30px;
+    padding: 7px;
+    background-color: black;
+}
+#slider .glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} */
+.menu-bar{
+        position: absolute;
+        z-index: 2;
+        background-color: rgba(232, 237, 244, 0.5);
+        padding: 28px 0px;
+        left: 15px;
+        right: 15px;
+        text-align: right;
+}
+.menu ul li{
+    list-style: none;
+    padding: 25px;
+    display: inline;
+    font-family: 'Avenir_Black';
+    font-size: 19px;
+}
+.menu li a {
+    color: #C41230;
+    font-weight: 600;
+    text-decoration: none;
+}
+.menu ul{
+    margin: 5px;
+}
+#new-menu-mobile{
+    display: none;
+}
+#new-menu-mobile .menu-icon{
+    background-color: red;
+    color: white; 
+    font-size: 21px;
+    margin-left: -4px;
+}
+#new-menu-mobile .fa-map-marker{
+    background-color:#4e5256;
+    color: white;
+    padding: 8px 11px;
+    margin-right: 2px;
+}
+#new-menu-mobile .fa-search {
+    background-color: #4e5256;
+    color: white;
+    padding: 8px;
+}
+#new-menu-mobile .dropdown-menu{
+    color: black;
+}
+#new-menu-mobile .navbar-dark .navbar-nav .nav-link {
+    color: black;
+}
+.text-content{
+    position: absolute;
+    top: 22%;
+}
+.windows {
+    position: absolute;
+    top: 30%;
+    margin-top: 3px;
+    background-color: rgba(51, 55, 69, .8) ;
+}
+.text-content h1{                       
+    color: white;
+    background-color: #c41230;
+    padding-left: 150px;
+    padding-right: 50px;
+    margin-left: 0;
+    margin-bottom: 5px;
+}
+p{
+    font-size: 14px;
+    font-family: 'Verdana';
+    color: #4e5256;
+}
+.windows p{
+    color: white;
+    padding: 17px 70px 32px 150px;
+}
+.windows .btn.btn-button{
+    top: 55%;
+    margin-left: 154px;
+}
+.white.new .fa-angle-down{
+    padding-left: 50px;
+}
+.btn.btn-button{
+    position: absolute;
+    font-family: 'AvenirNext_DemiBold', sans-serif;;
+    font-size: 14px;
+    color: white;
+    background-color:  #000;
+    padding: 6px;
+    display: inline-block;
+    border: 1px solid white;
+    text-decoration: none;
+}
+.fa-angle-right, .fa-angle-down {
+    padding-left: 10px;
+    color: #c41230;
+    font-size: 20px;
+}
+.together  .fa-search, .testimonial-meta .fa-search, .warranty_information .fa-search{
+    padding-left: 5px;
+    color: #c41230;
+}
+h2{
+    font-family: 'Avenir_Roman', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+span{
+    color: #C41230;
+    text-transform: uppercase;
+    font-family: 'AvenirNext_DemiBold', sans-serif;
+    font-size: 14px;
+}
+.gray{
+    background-color: #4e5256;
+    padding: 20px 0px 30px 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.text-information.white p{
+    color: white;
+}
+input{
+    margin-right: 20px;
+    padding: 5px;
+    font-style: italic;
+    border: 1px solid black;
+    padding-left: 15px;
+}
+#information img {
+    margin-top: 5px;
+    background-repeat: no-repeat;
+}
+.other-paragraph {
+    border: 1px solid #e8edf4;
+    margin-top: 5px;
+    font-family: 'AvenirNext_DemiBold';
+}
+.other-paragraph p {
+    font-family: 'AvenirNext_DemiBold';
+}
+.blue{
+    background-color: #5e8da0;
+    padding: 20px 0px 78px 40px;
+}
+h4{
+    font-size: 22px;
+    font-family: 'Avenir_Roman', sans-serif;; 
+    padding-top: 20px;
+    color: #333745;
+}
+.story{
+    padding: 30px;
+    margin-top: 5px;
+    background-image: url("images/footprint.png");
+}
+h3{
+    padding-top: 40px;
+    font-size: 30px;
+    font-family: 'Avenir_Roman', sans-serif;
+}
+.footer{
+    padding: 5px;
+    background-color: #333745;
+    padding-left: 40px;
+}
+.social-media {
+    padding-top: 5px;
+}
+.social-media .fa{
+    background-color: #787879;
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+}
+.footer a p {
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    font-family: 'AvenirNext_DemiBold';
+} 
+h5{
+    color: white;
+    font-family:  'Avenir_Roman', sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+}
+h5 span{
+    color: white;
+	font-family: 'Avenir_Black';
+    font-size: 20px;
+}
+
+.copyright p{
+    padding: 10px 0 10px 50px;
+    font-size: 10px;
+}
+/* 2- About */
+#header-text {
+    background-image: url("images/bg-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+#header-text img {
+    width: 100%;
+    background-repeat: no-repeat;
+}
+#header-text .windows{
+    margin-top:  -100px;
+}
+h6 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Avenir_Roman', sans-serif;
+    padding: 35px 0px 0 154px;
+}
+#header-text h1 {
+    padding-left: 48px;
+    padding-right: 18px;
+    margin-top: -48px;
+}
+#header-text p {
+    padding: 8px 40px 50px 48px;
+}
+#header-text h6 {
+    padding: 26px 0px 0 48px;
+}
+.story2{
+    padding: 30px;
+    margin-top: 5px;
+    background-image: url("images/footprint2.png");
+}
+#column-section span {
+    text-transform: lowercase;
+}
+.first, .second  {
+    padding: 45px;
+}
+#column-section p, #column-section p span{
+    font-family: 'Avenir_Medium', sans-serif;
+}
+#column-section h4{
+    font-family: 'Avenir_Medium';
+}
+
+/* 3- Care_Cleaning */
+#support{
+    background-color: #f2f2f2;
+    padding-top: 133px;
+}
+#support .span{
+    font-family: 'Avenir_Black';
+}
+#support h2{
+    color: #333745;
+    padding: 0px 0px 40px 115px;
+}
+#support .tabpanel{
+    padding: 0px 115px 50px 50px;
+}
+/* .text-support{
+    padding:0px 0px 40px 80px;
+} */
+h1 {
+    margin-left: 15px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-family: "Avenir_Roman";
+    color: #c41230;
+}
+.brand-pills > li > a {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    color: black;
+    width: 350px;
+}
+li.brand-nav a.active:after{
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 19px solid transparent;
+    border-bottom: 19px solid transparent;
+    border-left: 20px solid #c41230;
+    position: absolute;
+    top: 50%;
+    margin-top: -19px;
+    left: 100%;
+    z-index: 2;
+}
+.nav-pills>li a.active{
+    color: white;
+    background-color: #c41230;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    color: #000;
+    background-color: #c41230;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 9px 10px;
+    font-family: 'Verdana';
+    font-size: 14px;
+}
+.list-all{
+	list-style: none;
+	line-height: 2.5;
+}
+.list-red{
+    color:black;
+    font-family: 'Verdana';
+    font-size: 14px;
+}
+.list-red:hover {
+	color:#c41230;
+    text-decoration: none;
+    font-weight: bold;
+}
+.testimonial h4{
+    font-family: 'Verdana';
+    padding-bottom: 20px;
+}
+.testimonial.last ul li{
+    font-family: 'Verdana';
+    text-transform: uppercase;
+    font-size: 14px;
+    list-style: none;
+}
+.testimonial.last ul{
+    padding: 0px;
+}
+.hell {
+    background-image: url("images/bg2.png");
+}
+.test-1{
+    padding: 45px 20px 70px 50px;
+}
+
+.testimonial-meta.new {
+    margin-top: 50px;
+    }
+.testimonial-meta {
+    margin-top: 30px;
+}
+/* 4- Customer Service (472) */
+#form_fill {
+    padding-top: 133px;
+}
+.red_form{
+    background-color: #C41230;
+    padding: 25px;
+    margin: 15px -20px 10px -20px;
+}
+.red_form h4, .red_form p, .red_form label{
+    color: white !important; 
+    padding: 0;
+}
+#form_fill label{
+    font-family: 'Verdana';
+    font-size: 14px;
+    padding-top: 15px;
+    color: #333745;
+}
+#form_fill h1, #faq h1, #support h1{
+    padding:  35px 0px 35px 40px;
+    margin: 0;
+}
+#form_fill ul li, .left_page2 ul li{
+    font-family: 'Verdana';
+    font-size: 14px;
+    color: #333745;
+    line-height: 2;
+}
+.left-page{
+    padding: 0px 33px 50px 83px;
+}
+.left-page ul{
+    padding-left: 15px;
+}
+.right-page{
+    padding: 0px 35px 50px 35px;
+}
+.contact_inf{
+    font-size: 24px;
+    font-family: 'Arial';
+    color: #333745;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+#form_fill h3 {
+    padding-top: 10px;
+}
+.required_paragraph p{
+    padding-top: 10px;
+}
+.left_page2 ul li {
+    list-style: none;
+    line-height: 2;
+}
+.one  {
+padding-left: 30px;
+}
+.star-white{
+    color: white;
+}
+
+
+/* 5- Faq (526)*/
+#faq {
+    padding-top: 133px;
+}
+/* #faq .tabpanel{
+    padding: 0px 80px 50px 115px;
+} */
+#faq h3{
+    padding-top: 0px;
+}
+.warranty_information {
+    background-color: #e8edf4;
+    padding: 20px 20px 50px 20px;
+}
+.some_paragraphs p {
+    padding: 10px;
+}
+.some_paragraphs ul li {
+    font-size: 14px;
+    line-height: 2;
+}
+#faq .brand-pills > li > a {
+    width: 600px;
+}
+#faq li.brand-nav a.active:after{
+    border-top: 18px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-left: 20px solid #c41230;
+    margin-top: -17px;
+}
+.border-right {
+    border-right: 3px solid #cbcccf !important;
+}
+.warranty_information h4{
+    padding-top: 0px;
+}
+#form_fill span{
+    margin-top: 100px;
+}
+.some_paragraphs p:first-child{
+    font-family: 'Avenir_Medium';
+}
+#faq .nav{
+line-height: 1.2;
+}
+.iframe{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+#header-texttwo .windows .btn.btn-button {
+    top: 75%;
+    margin-left: 154px;
+}
+
+#header-texttwo .windows {
+    top: 40%;
+}
+
+
+
+@media (max-width: 1199px) {
+    .header-names li a{
+        padding: 3px;
+    }
+    /* .menu-bar{
+        margin-left: 0px;
+    }
+    .menu-bar .list{
+        margin-left: 125px;
+    }
+    .menu ul li {
+        padding: 2px;   
+    }
+    .menu ul{
+        margin: -40px;
+    } */
+    .text-content h1 {
+        font-size: 40px;
+    }
+    .windows p {
+        padding: 20px 85px 45px 145px;
+    }
+    #header-text p {
+        padding: 0px 40px 0px 48px;
+    }
+    #header-text h1 {
+        font-size: 35px;
+    }
+    #header-text h6 {
+        padding: 12px 0px 0 48px;
+        font-size: 20px;
+    }
+    #header-text .windows {
+        margin-top: -115px;
+    }
+    .windows .btn.btn-button {
+        top: 55%;
+        margin-left: 144px;
+    }
+    #information img {
+        width: 220px;
+        height: 160px;
+        background-repeat: no-repeat;      
+    }
+    .other-paragraph {
+        height: 165px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    .blue {
+        padding: 20px 0px 100px 40px;
+    }
+    h3 {
+        padding-top: 40px;
+        font-size: 22px;
+    }
+    .story2 h3 {
+            padding-top: 0px;
+            font-size: 18px;
+    }
+    .social-media {
+        padding-top: 13px;
+    }
+    .footer  a p{
+        font-size: 10px;
+        padding-top: 22px;
+    }
+    .footer h5{
+        font-size: 14px;
+        padding-top: 22px;
+    }
+    .footer span{
+        font-size: 14px;
+    }
+    .brand-pills > li > a {
+        width: 100%;
+    }
+    #faq .brand-pills > li > a {
+        width: 100%;
+    }
+    .test-1{
+        padding: 45px;
+    }
+} 
+
+
+@media (max-width: 991px) { 
+    .menu-bar {
+        padding: 5px 10px;
+    }
+    .text-content h1 {
+        font-size: 30px;
+        padding-left: 55px;
+        margin-top: 2px;
+    }
+    #header-text h1 {
+        margin-top: -104px;
+    }
+    #header-text .windows {
+        margin-top: -165px;
+    }
+    .windows p {
+        padding: 20px 50px 44px 55px;
+    }
+    .windows .btn.btn-button {
+        top: 55%;
+        margin-left: 55px;
+        padding: 5px;
+        font-size: 12px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .btn.btn-button {
+        padding: 5px;
+        font-size: 12px;
+    }
+    input {
+        margin: 0px;
+        margin-right: 5px;
+    }
+    #information img {
+        margin-top: 5px;
+        width: 185px;
+        height: 154px;
+        background-repeat: no-repeat;
+    }
+    h4 {
+        font-size: 16px;
+        padding-top: 5px;
+    }
+    h3 {
+        padding-top: 55px;
+        font-size: 18px;
+    }
+    .social-media .fa {
+        font-size: 15px;
+        padding: 6px;
+    }
+    .right-page {
+        padding: 0px 25px 50px 22px;
+    }
+    .footer  a p{
+        font-size: 10px;
+        padding-top: 12px;
+        display: inline;
+    }
+    .story {
+        padding: 15px;
+    }
+    .contact_inf {
+        font-size: 17px;
+        padding-left: 0px;
+    }
+    .footer h5{
+        font-size: 12px;
+        padding-top: 12px;
+    }
+    .footer span{
+        font-size: 12px;
+    }
+    .brand-pills > li > a {
+        width: 100%;
+    }
+    #faq .brand-pills > li > a {
+        width: 100%;
+    }
+} 
+
+@media (max-width: 767px) { 
+    .header{
+        display: none;
+    }
+    .menu-bar{
+        display: none;
+    }
+    .navbar-brand img {
+        height: 50px;
+        margin-right: 275px;
+    }   
+    #new-menu-mobile{
+        display: flex;
+    }
+    .navbar-dark .navbar-toggler {
+        border-color: transparent;
+        margin: -7px;
+    }
+    .text-content h1 {
+        font-size: 30px;
+        padding-left: 65px;
+        margin-top: -7px;
+    }
+    #header-text h1 {
+        margin-top: -16px;
+    }
+    #header-text .text-content{
+        top: 10%;
+    }
+    #header-text .windows p {
+        padding: 5px;
+        font-size: 12px;
+        margin: 0px;
+    }
+    #header-text .windows{
+        margin-top: -300px;
+    }
+    .windows p {
+        color: white;
+        padding: 10px 56px 45px 65px;
+    }
+    #faq {
+        padding-top: 15px;
+    }
+    .windows .btn.btn-button {
+        top: 55%;
+        margin-left: 55px;
+        padding: 5px;
+        font-size: 12px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .btn.btn-button {
+        padding: 5px;
+        font-size: 12px;
+    }
+    input {
+        margin: 0px;
+        margin-right: 5px;
+    }
+    .first, .second {
+        padding: 25px;
+    }
+    .gray {
+        padding: 20px 0px 30px 51px;
+        margin-top: 3px;
+        margin-bottom: 5px;
+    }
+    .blue {
+        padding: 20px 0px 65px 48px;
+    }
+    #information img {
+        height: 165px;
+        width: 295px;
+        background-repeat: no-repeat;
+    }
+    h4 {
+        font-size: 22px;
+        padding-top: 15px;
+    }
+    span {
+        font-size: 10px;
+    }
+    .story{
+        padding-top: 0;
+        height: 195px;
+    }
+    #form_fill {
+        padding-top: 35px;
+    }
+    h3 {
+        padding-top: 44px;
+        font-size: 19px;
+    }
+    .footer .contact {
+        max-width: 20%;
+    }
+    .footer span {
+        max-width: 100%;
+    }
+    .social-media {
+        padding-top: 5px;
+        margin-left: 10px;
+    }
+    .brand-pills > li > a {
+        width: 100%;
+    }
+    #faq .brand-pills > li > a {
+        width: 100%;
+    }
+} 
+
+@media (max-width: 575px) { 
+    .header{
+        display: none;
+    }
+    .menu-bar{
+        display: none;
+    }
+    .navbar-brand img {
+        height: 50px;
+        margin-right: 75px;
+    }
+    .navbar{
+        flex-wrap: wrap;
+    }
+    #new-menu-mobile{
+        display: flex;
+    }
+    .navbar-dark .navbar-toggler {
+        border-color: transparent;
+        margin: -7px;
+    }
+    .text-content h1 {
+        font-size: 30px;
+        padding-left: 32px;
+    }
+    #header-text .windows {
+        margin-top: -288px;
+    }
+    .windows {
+        margin-top: 20px;
+    }
+    .windows p {
+        padding: 10px 3px 44px 32px;
+    }
+    .windows .btn.btn-button {
+        top: 55%;
+        margin-left: 32px;
+        padding: 5px;
+        font-size: 12px;
+    }
+    #support {
+        padding-top: 25px;
+    }
+    #header-text h6 {
+        padding: 5px;
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .btn.btn-button {
+        padding: 5px;
+        font-size: 12px;
+    }
+    input {
+        padding: 2px;
+        margin-right: 5px;
+    }
+    .gray {
+        padding: 20px 0px 30px 51px;
+        margin-top: 3px;
+        margin-bottom: 5px;
+    }
+    .blue {
+        padding: 20px 0px 72px 48px;
+    }
+    #information img {
+        /* height: 140px;
+        width: 220px;
+        background-repeat: no-repeat; */
+        max-width: 50%;
+    }
+    .other-paragraph {
+        /* height: 140px; */
+        max-width: 50%;
+    }
+    h4 {
+        font-size: 17px;
+        padding-top: 8px;
+    }
+    span {
+        font-size: 12px;
+    }
+    .story{
+        padding-top: 0;
+        height: 195px;
+    }
+    .story2 {
+        padding: 8px;
+    }
+    .story p{
+        margin-bottom: 0px
+    }
+    h3 {
+        padding-top:10px;
+        font-size: 19px;
+    }
+    .footer .contact {
+        max-width: 20%;
+    }
+    .social-media {
+        padding-top: 5px;
+        margin-left: 10px;
+    }
+    .footer p{
+        font-size: 9px;
+    }
+    .footer .contact {
+        max-width: 22%;
+    }
+    .fa-angle-right, .fa-angle-down {
+        padding-left: 5px;
+    }
+    .contact_inf{
+        padding: 0;
+    }
+    .left-page{
+        padding: 0;
+    }
+    .first, .second {
+        padding: 15px;
+    }
+    #form_fill h1 {
+        margin: 0;
+    }
+    .brand-pills > li > a {
+        width: 100%;
+    }
+    #faq .brand-pills > li > a {
+        width: 100%;
+    }
+    li.brand-nav.active a:after{
+        border-top: 100%;
+        border-bottom: 100%;
+        border-left: 100%;
+    }
+    #form_fill h1, #faq h1{
+        font-size: 30px;
+    }
+    #form_fill h3 {
+        font-size: 10px;
+    }
+    .left-page p{
+        padding: 10px;
+    }
+    #form_fill h3 {
+        font-size: 22px;
+    }
+    .contact_inf{
+        font-size: 14px;
+        padding-left: 25px;
+        padding-top: 20px;
+    }
+}
+
