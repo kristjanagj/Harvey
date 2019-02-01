@@ -73,26 +73,7 @@
     max-width: 1600px;
     position: relative;
 } 
-/* 1- Index */  /* 2- About(335) */  /* 3- Care_Cleaning (380) */  /* 4- Customer Service (472) */  /* 5- Faq (526)*/
-/* .header{
-    background-color:#333745;
-    justify-content: flex-end;
-}
-.header-names {
-    margin-top: 15px;
-}
-.header-names li{
-    display: inline; 
-    color: white;
-    list-style: none;
-    font-size: 15px;
-    font-family: 'Avenir_Medium';
-    padding: 15px;
-}
-.header-names li a{
-    color: white;
-    text-decoration: none;
-} */
+/* 1- Index */ 
 .header-names {
     padding: 15px 35px 3px 0px;
 }
@@ -132,23 +113,6 @@
     border: 2px solid #4e5256;
     display: inline-block;
 }
-/* #slider .glyphicon .glyphicon-menu-left, #images .glyphicon .glyphicon-menu-left {
-    width: 49px;
-    height: 50px;
-    margin-top: 400px;
-    font-size: 30px;
-    padding: 7px;
-    background-color: black;
-}
-#slider .glyphicon {
-    position: relative;
-    top: 1px;
-    display: inline-block;
-    font-weight: 400;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-} */
 .menu-bar{
         position: absolute;
         z-index: 2;
@@ -205,8 +169,7 @@
 }
 .windows {
     position: absolute;
-    top: 30%;
-    margin-top: 3px;
+    top: 33%;
     background-color: rgba(51, 55, 69, .8) ;
 }
 .text-content h1{                       
@@ -248,6 +211,10 @@ p{
     padding-left: 10px;
     color: #c41230;
     font-size: 20px;
+}
+#information{
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .together  .fa-search, .testimonial-meta .fa-search, .warranty_information .fa-search{
     padding-left: 5px;
@@ -306,6 +273,8 @@ h4{
     padding: 30px;
     margin-top: 5px;
     background-image: url("images/footprint.png");
+    width: 100%;
+    background-repeat: no-repeat;
 }
 h3{
     padding-top: 40px;
@@ -359,9 +328,11 @@ h5 span{
 #header-text img {
     width: 100%;
     background-repeat: no-repeat;
+    position: relative;
 }
 #header-text .windows{
-    margin-top:  -100px;
+    margin-top: -160px;
+    position: absolute;
 }
 h6 {
     color: white;
@@ -372,7 +343,7 @@ h6 {
 #header-text h1 {
     padding-left: 48px;
     padding-right: 18px;
-    margin-top: -48px;
+    margin-top: 60px;
 }
 #header-text p {
     padding: 8px 40px 50px 48px;
@@ -380,10 +351,14 @@ h6 {
 #header-text h6 {
     padding: 26px 0px 0 48px;
 }
+.harvey-photo{
+    position: relative;
+}
 .story2{
     padding: 30px;
     margin-top: 5px;
     background-image: url("images/footprint2.png");
+    background-repeat: no-repeat;
 }
 #column-section span {
     text-transform: lowercase;
@@ -565,9 +540,6 @@ padding-left: 30px;
 #faq {
     padding-top: 133px;
 }
-/* #faq .tabpanel{
-    padding: 0px 80px 50px 115px;
-} */
 #faq h3{
     padding-top: 0px;
 }
@@ -620,25 +592,10 @@ line-height: 1.2;
 #header-texttwo .windows {
     top: 40%;
 }
-
-
-
 @media (max-width: 1199px) {
     .header-names li a{
         padding: 3px;
     }
-    /* .menu-bar{
-        margin-left: 0px;
-    }
-    .menu-bar .list{
-        margin-left: 125px;
-    }
-    .menu ul li {
-        padding: 2px;   
-    }
-    .menu ul{
-        margin: -40px;
-    } */
     .text-content h1 {
         font-size: 40px;
     }
@@ -663,12 +620,10 @@ line-height: 1.2;
         margin-left: 144px;
     }
     #information img {
-        width: 220px;
-        height: 160px;
-        background-repeat: no-repeat;      
+        width:100%;
     }
     .other-paragraph {
-        height: 165px;
+        width:100%;
     }
     h2 {
         font-size: 35px;
@@ -708,8 +663,6 @@ line-height: 1.2;
         padding: 45px;
     }
 } 
-
-
 @media (max-width: 991px) { 
     .menu-bar {
         padding: 5px 10px;
@@ -720,7 +673,7 @@ line-height: 1.2;
         margin-top: 2px;
     }
     #header-text h1 {
-        margin-top: -104px;
+        margin-top: 25px;
     }
     #header-text .windows {
         margin-top: -165px;
@@ -744,12 +697,6 @@ line-height: 1.2;
     input {
         margin: 0px;
         margin-right: 5px;
-    }
-    #information img {
-        margin-top: 5px;
-        width: 185px;
-        height: 154px;
-        background-repeat: no-repeat;
     }
     h4 {
         font-size: 16px;
@@ -865,11 +812,6 @@ line-height: 1.2;
     .blue {
         padding: 20px 0px 65px 48px;
     }
-    #information img {
-        height: 165px;
-        width: 295px;
-        background-repeat: no-repeat;
-    }
     h4 {
         font-size: 22px;
         padding-top: 15px;
@@ -914,11 +856,11 @@ line-height: 1.2;
         display: none;
     }
     .navbar-brand img {
-        height: 50px;
-        margin-right: 75px;
+        width: 100%;
     }
     .navbar{
         flex-wrap: wrap;
+        padding: 0px;
     }
     #new-menu-mobile{
         display: flex;
@@ -939,6 +881,12 @@ line-height: 1.2;
     }
     .windows p {
         padding: 10px 3px 44px 32px;
+    }
+    #header-text .windows {
+        display: none;
+    }
+    #header-text h1 {
+        margin-top: 80px;
     }
     .windows .btn.btn-button {
         top: 55%;
@@ -963,6 +911,7 @@ line-height: 1.2;
     input {
         padding: 2px;
         margin-right: 5px;
+        width: 100%;
     }
     .gray {
         padding: 20px 0px 30px 51px;
@@ -973,14 +922,10 @@ line-height: 1.2;
         padding: 20px 0px 72px 48px;
     }
     #information img {
-        /* height: 140px;
-        width: 220px;
-        background-repeat: no-repeat; */
-        max-width: 50%;
+        width: 100%;
     }
     .other-paragraph {
-        /* height: 140px; */
-        max-width: 50%;
+        width: 100%;
     }
     h4 {
         font-size: 17px;
@@ -997,11 +942,10 @@ line-height: 1.2;
         padding: 8px;
     }
     .story p{
-        margin-bottom: 0px
+        display: none;
     }
     h3 {
-        padding-top:10px;
-        font-size: 19px;
+        padding-top:100px;
     }
     .footer .contact {
         max-width: 20%;
@@ -1045,9 +989,6 @@ line-height: 1.2;
     #form_fill h1, #faq h1{
         font-size: 30px;
     }
-    #form_fill h3 {
-        font-size: 10px;
-    }
     .left-page p{
         padding: 10px;
     }
@@ -1059,5 +1000,27 @@ line-height: 1.2;
         padding-left: 25px;
         padding-top: 20px;
     }
+    .footer{
+        padding-left: 5px;
+    }
+    .copyright p {
+        padding: 5px;
+    }
 }
-
+@media (max-width: 320px) { 
+    .windows p{
+        display: none;
+    }
+    .text-content h1 {
+        font-size: 20px;
+    }
+    .windows .btn.btn-button {
+        top: -35%;
+    }
+    .sell p{
+        display: none;
+    }
+    .story2{
+        padding: 35px;
+    }
+}
