@@ -376,7 +376,8 @@ h6 {
 /* 3- Care_Cleaning */
 #support{
     background-color: #f2f2f2;
-    padding-top: 133px;
+    /* padding-top: 133px; */
+    padding: 133px 115px 50px 50px;
 }
 #support .span{
     font-family: 'Avenir_Black';
@@ -388,9 +389,6 @@ h6 {
 #support .tabpanel{
     padding: 0px 115px 50px 50px;
 }
-/* .text-support{
-    padding:0px 0px 40px 80px;
-} */
 h1 {
     margin-left: 15px;
     margin-bottom: 20px;
@@ -538,7 +536,7 @@ padding-left: 30px;
 
 /* 5- Faq (526)*/
 #faq {
-    padding-top: 133px;
+    padding: 130px 80px 15px 115px;
 }
 #faq h3{
     padding-top: 0px;
@@ -546,10 +544,16 @@ padding-left: 30px;
 .warranty_information {
     background-color: #e8edf4;
     padding: 20px 20px 50px 20px;
+    margin: 25px 10px 25px -25px;
 }
 .some_paragraphs p {
     padding: 10px;
 }
+.some_paragraphs img {
+    width: 100%;
+}
+
+
 .some_paragraphs ul li {
     font-size: 14px;
     line-height: 2;
@@ -613,7 +617,7 @@ line-height: 1.2;
         font-size: 20px;
     }
     #header-text .windows {
-        margin-top: -115px;
+        margin-top: -200px;
     }
     .windows .btn.btn-button {
         top: 55%;
@@ -630,6 +634,12 @@ line-height: 1.2;
     }
     .blue {
         padding: 20px 0px 100px 40px;
+    }
+    #support {
+        padding: 133px 25px 50px 15px;
+    }
+    #faq {
+        padding: 130px 20px 15px 20px;
     }
     h3 {
         padding-top: 40px;
@@ -676,7 +686,7 @@ line-height: 1.2;
         margin-top: 25px;
     }
     #header-text .windows {
-        margin-top: -165px;
+        margin-top: -258px;
     }
     .windows p {
         padding: 20px 50px 44px 55px;
@@ -764,7 +774,7 @@ line-height: 1.2;
         margin-top: -7px;
     }
     #header-text h1 {
-        margin-top: -16px;
+        margin-top: 32px;
     }
     #header-text .text-content{
         top: 10%;
@@ -784,11 +794,17 @@ line-height: 1.2;
     #faq {
         padding-top: 15px;
     }
+    #support {
+        padding: 30px 25px 50px 15px;
+    }
     .windows .btn.btn-button {
         top: 55%;
         margin-left: 55px;
         padding: 5px;
         font-size: 12px;
+    }
+    .test-1 {
+        padding: 30px;
     }
     h2 {
         font-size: 20px;
@@ -914,12 +930,12 @@ line-height: 1.2;
         width: 100%;
     }
     .gray {
-        padding: 20px 0px 30px 51px;
+        padding: 40px 20px;
         margin-top: 3px;
         margin-bottom: 5px;
     }
     .blue {
-        padding: 20px 0px 72px 48px;
+        padding: 40px 20px;
     }
     #information img {
         width: 100%;
@@ -1022,5 +1038,15 @@ line-height: 1.2;
     }
     .story2{
         padding: 35px;
+    }
+    #header-text h1 {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    #faq {
+        padding: 0px;
+    }
+    .warranty_information {
+        margin: 0px;
     }
 }
